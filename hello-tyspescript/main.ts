@@ -15,3 +15,4 @@ class Matematica{
         return x + y;
     }
 }
+numeros.map(valor => valor / 2)

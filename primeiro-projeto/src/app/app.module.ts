@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './primeiro-projeto/meu-primeiro.component';
 import { CursosModule } from '../cursos/cursos.module';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 
 
@@ -13,6 +14,7 @@ import { CursosModule } from '../cursos/cursos.module';
   declarations: [ //declaração de todos os componentes e pipes
     AppComponent,
     MeuPrimeiroComponent,
+    DataBindingComponent,
   ],
   imports: [ // adiciona os modulos que serao utilizados na aplicação
     BrowserModule,

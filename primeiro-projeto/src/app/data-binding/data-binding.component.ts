@@ -18,6 +18,13 @@ export class DataBindingComponent {
   
   isMouseOver: boolean = false;
 
+  nome = 'abc';
+  
+  pessoa: any ={
+    nome:'jef',
+    idade: 25
+  }
+
   getGosteiCurso(){
     return true;
   }
@@ -31,7 +38,7 @@ export class DataBindingComponent {
   }
 
   onKeyUp(evento: KeyboardEvent){
-    console.log((<HTMLInputElement>evento.target).value);
+    this.valorAtual=((<HTMLInputElement>evento.target).value);
   }
   salvarValor(valor: string){
     this.valorSalvo = valor;

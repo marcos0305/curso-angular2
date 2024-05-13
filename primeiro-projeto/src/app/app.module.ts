@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './primeiro-projeto/meu-primeiro.component';
 import { CursosModule } from '../cursos/cursos.module';
 import { DataBindingComponent } from './data-binding/data-binding.component';
+import { InputPropertyComponent } from './data-binding/input-property/input-property.component';
 
 
 
@@ -15,6 +16,7 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     AppComponent,
     MeuPrimeiroComponent,
     DataBindingComponent,
+    InputPropertyComponent,
   ],
   imports: [ // adiciona os modulos que serao utilizados na aplicação
     BrowserModule,

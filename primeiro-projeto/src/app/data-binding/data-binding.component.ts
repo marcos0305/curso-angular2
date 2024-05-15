@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
   styleUrl: './data-binding.component.css'
+
 })
 
 export class DataBindingComponent {
@@ -50,4 +51,9 @@ export class DataBindingComponent {
     this.isMouseOver = !this.isMouseOver;
   }
 
+  valorInicial = 15;
+
+  onMudouvalor(evento: any){
+    console.log(evento.novoValor);
+  }
 }

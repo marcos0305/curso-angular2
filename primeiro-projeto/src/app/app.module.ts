@@ -1,19 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';//prepara a aplicacão para ser executada
-
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterModule } from '@angular/router'; 
+
 import { MeuPrimeiroComponent } from './primeiro-projeto/meu-primeiro.component';
-<<<<<<< HEAD:src/app/app.module.ts
-=======
-import { CursosModule } from '../cursos/cursos.module';
+import { CicloComponent } from './ciclo/ciclo.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { InputPropertyComponent } from './data-binding/input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
-import { CicloComponent } from './ciclo/ciclo.component';
+import { merge } from 'rxjs';
+import { CursosModule } from '../cursos/cursos.module';
+import { AppRoutingModule } from './app-routing.module';
 
->>>>>>> 109e44ba910e69d3bb7f4f65f34e8778d7580e98:primeiro-projeto/src/app/app.module.ts
 
 
 @NgModule({ //decoreidor

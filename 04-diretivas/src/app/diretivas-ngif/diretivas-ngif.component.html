@@ -6,3 +6,17 @@
 <div ngIf = "cursos.lenght == 0">
     Não existem cursos para serem listados
 </div>
+
+<div ngIf="mostrarCursos">
+    Lista de cursos aqui
+</div>
+ 
+<h5>Removendo o * e usando template</h5>
+
+<!--template [ngIf]="mostrarCursos">
+    <div>Lista de cursos aqui</div>
+</template-->
+
+<div template="ngIf mostrarCursos">
+    Lista de cursos aqui
+</div>

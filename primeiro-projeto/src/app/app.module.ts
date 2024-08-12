@@ -11,6 +11,7 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
 import { merge } from 'rxjs';
 import { CursosModule } from '../cursos/cursos.module';
 import { AppRoutingModule } from './app-routing.module';
+import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
 
 
 
@@ -22,6 +23,7 @@ import { AppRoutingModule } from './app-routing.module';
     InputPropertyComponent,
     OutputPropertyComponent,
     CicloComponent,
+    OperadorElvisComponent,
   ],
   imports: [ // adiciona os modulos que serao utilizados na aplicação
     BrowserModule,

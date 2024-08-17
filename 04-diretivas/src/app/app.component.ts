@@ -5,11 +5,12 @@ import { DiretivaNgswitchComponent } from "./diretiva-ngswitch/diretiva-ngswitch
 import { DiretivaNgforComponent } from "./diretiva-ngfor/diretiva-ngfor.component";
 import { DiretivaNgstyleComponent } from "./diretiva-ngstyle/diretiva-ngstyle.component";
 import { ExemploNgContentComponent } from "./exemplo-ng-content/exemplo-ng-content.component";
+import { DiretivasCustomizadasComponent } from "./diretivas-customizadas/diretivas-customizadas.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, DiretivasNgifComponent, DiretivaNgswitchComponent, DiretivaNgforComponent, DiretivaNgstyleComponent, ExemploNgContentComponent],
+  imports: [RouterOutlet, DiretivasNgifComponent, DiretivaNgswitchComponent, DiretivaNgforComponent, DiretivaNgstyleComponent, ExemploNgContentComponent, DiretivasCustomizadasComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

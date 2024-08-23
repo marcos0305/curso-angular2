@@ -9,4 +9,17 @@ import { Component } from '@angular/core';
 })
 export class DiretivasCustomizadasComponent {
 
+  mostrarCursos: boolean = false;
+ 
+  constructor(){}
+ 
+  ngOnInit(){
+  }
+ 
+  onMostrarCursos(): void{
+   this.mostrarCursos = !this.mostrarCursos
+  }
+
+  
+
 }

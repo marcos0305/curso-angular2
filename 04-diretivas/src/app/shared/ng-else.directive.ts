@@ -8,7 +8,8 @@ export class NgElseDirective {
 
   @Input() set ngElse(condition: boolean){
     if(!condition){
-      this._viewContainerRef?.createEmbeddedView(this._templateRef);
+      this._viewContainerRef?.createEmbeddedView
+      //(this._templateRef);
     }else{
       this._viewContainerRef?.clear();
     }

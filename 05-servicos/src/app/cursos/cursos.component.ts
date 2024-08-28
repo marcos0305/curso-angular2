@@ -12,11 +12,12 @@ import { CursosService } from './cursos.service';
 export class CursosComponent {
 
   cursos: string[] = [];
-  cursosService: CursosService;
+  //cursosService: CursosService;
 
 
-  constructor(){
-    this.cursosService = new CursosService();
+  constructor(private cursosService: CursosService){
+    //this.cursosService = new CursosService();
+    //this.cursosService = _cursosService;
   }
 
   ngOnInit(){

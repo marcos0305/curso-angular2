@@ -22,5 +22,7 @@ export class CursosComponent {
 
   ngOnInit(){
     this.cursos = this.cursosService.getCursos();
+
+    
   }
 }

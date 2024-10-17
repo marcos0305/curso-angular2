@@ -9,7 +9,20 @@ import { CommonModule } from '@angular/common';
 })
 export class ExemplosPipesComponent {
 
- 
+  livro: any = {
+    titulo: 'Learning JavaScript Data Structures and Algorithms 2nd ed',
+    rating: 4.54321,
+    numeroPaginas: 314,
+    preco: 44.99,
+    dataLancamento: new Date(2016, 5, 23)
+  };
 
-  valor = 'texto em maiuscula' ;
+  liv: string[] = ['Java', 'Angular2']; 
+
+  filtro: string | undefined;
+  constructor(){}
+
+  ngOnInit(){
+
+  }
 }
